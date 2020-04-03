@@ -12,10 +12,10 @@ class RateThis:
         ''' Getting Tweets and Analyzing Data'''
 
         # Authenticate Keys Provided by Twitter
-        consumerKey = "8IsgAfkOJQDB6CE0x1UNp6ymc"
-        consumerSecret = "NAWkRpoVhMPUBFGZ8Ov8WccsyWzs2EArfdt5fZmXqpDDAxwiwQ"
-        accessToken = "1105641397640675328-y7AjMBlXBn3p0nTZCnShEpgzcR8CHd"
-        accessTokenSecret = "h2vDCQ3foveZ4octreu68SiTFnk888smK3YMPAVigAwX9"
+        consumerKey = "Enter Consumer Key Here"
+        consumerSecret = "Enter Consumer Secret Key Here"
+        accessToken = "Enter Access Token Here"
+        accessTokenSecret = "Enter Access Token Secret Key Here"
         auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
         auth.set_access_token(accessToken, accessTokenSecret)
         api = tweepy.API(auth)
